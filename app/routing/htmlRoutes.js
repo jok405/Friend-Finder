@@ -2,7 +2,7 @@
 
 
 // Middleware dependency
-var path = require('path');
+const path = require('path');
 
 function htmlRoutes(app) {
 
