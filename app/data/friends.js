@@ -1,5 +1,5 @@
 
-let friendsData = [
+const friendsArray = [
     {
       name: "Olivia Wilde",
       photo: "https://pmcdeadline2.files.wordpress.com/2016/06/olivia_wilde-686-1.jpg?w=605",
@@ -53,4 +53,4 @@ let friendsData = [
   ];
     
   // Exports to API Route
-  module.exports = friendsData;
+module.exports = friendsArray;

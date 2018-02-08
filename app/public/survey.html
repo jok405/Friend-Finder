@@ -1,0 +1,293 @@
+<!-- Front-end- Friend Finder Express Node app -->
+
+ <!DOCTYPE html>
+ <html>
+ 
+   <head>
+     <title>Friend Finder | Quiz</title>
+     <link rel="icon" href="http://www.freeiconspng.com/uploads/burn-burning-fire-flame-heat-icon--icon-search-engine-20.png">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   </head>
+ 
+ 
+   <body>
+ 
+     <div class = "container">
+       <div class="page-header">
+         <h1 style="font-size: 45px;"><span class="glyphicon glyphicon-ice-lolly-tasted" style="color: #4fb2d9;"></span> Friend Finder Survey! <span class="glyphicon glyphicon-sunglasses" style="color: #d9534f;"></span></h1>
+       </div>
+ 
+       <div class="panel panel-default">
+         <div class="panel-heading">
+           <h3 class="panel-title"><span class="glyphicon glyphicon-user"></span><strong> About You</strong></span></h3>
+         </div>
+         <div class="panel-body">
+           <h4><span class="glyphicon glyphicon-barcode"></span> Your Name</h4>
+           <div class="input-group">
+             <input id = "formName" class="form-control" type="text" name="name" placeholder="John Smith">
+             <span class="input-group-addon">(Required)</span>
+           </div>  
+           <br>
+           <h4><span class="glyphicon glyphicon-camera"></span> Photo Image</h4>
+           <div class="input-group">
+             <input id = "formImage" class="form-control" type="text" name="name" placeholder="http://yourphotolink.com.jpg/">
+             <span class="input-group-addon">(Required)</span>
+           </div>
+         </div>
+       </div>
+ 
+ 
+       <!-- Questionnaire Panel -->
+       <div class="panel panel-default">
+         <div class="panel-heading">
+           <h3 class="panel-title"><span class="glyphicon glyphicon-th-list"></span><strong> Questionnaire </strong><span class="glyphicon glyphicon-pencil"></span></h3>
+         </div>
+         <div class="panel-body">
+           
+           <h4><strong>Question 1</strong></h4>
+           <h5>You are the center in social gatherings.</h5>
+           <select data-placeholder="" class="chosen-select" id="Q1">
+             <option value=""></option>
+             <option value="1">1 (Strongly Disagree)</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5 (Strongly Agree)</option>
+           </select>
+ 
+           <h4><strong>Question 2</strong></h4>
+           <h5>You find it difficult to introduce yourself to other people.</h5>
+           <select data-placeholder="" class="chosen-select" id="Q2">
+             <option value=""></option>
+             <option value="1">1 (Strongly Disagree)</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5 (Strongly Agree)</option>
+           </select>
+ 
+           <h4><strong>Question 3</strong></h4>
+           <h5>You often get so lost in thoughts that you ignore or forget your surroundings.</h5>
+           <select data-placeholder="" class="chosen-select" id="Q3">
+             <option value=""></option>
+             <option value="1">1 (Strongly Disagree)</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5 (Strongly Agree)</option>
+           </select>
+ 
+           <h4><strong>Question 4</strong></h4>
+           <h5>You try to respond to your e-mails as soon as possible and cannot stand a messy inbox.</h5>
+           <select data-placeholder="" class="chosen-select" id="Q4">
+             <option value=""></option>
+             <option value="1">1 (Strongly Disagree)</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5 (Strongly Agree)</option>
+           </select>
+ 
+           <h4><strong>Question 5</strong></h4>
+           <h5>You find it easy to stay relaxed even when there is some pressure.</h5>
+           <select data-placeholder="" class="chosen-select" id="Q5">
+             <option value=""></option>
+             <option value="1">1 (Strongly Disagree)</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5 (Strongly Agree)</option>
+           </select>
+ 
+           <h4><strong>Question 6</strong></h4>
+           <h5>You often find yourself lost in thought when you are walking in nature.</h5>
+           <select data-placeholder="" class="chosen-select" id="Q6">
+             <option value=""></option>
+             <option value="1">1 (Strongly Disagree)</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5 (Strongly Agree)</option>
+           </select>
+ 
+           <h4><strong>Question 7</strong></h4>
+           <h5>You do not usually initiate conversations.</h5>
+           <select data-placeholder="" class="chosen-select" id="Q7">
+             <option value=""></option>
+             <option value="1">1 (Strongly Disagree)</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5 (Strongly Agree)</option>
+           </select>
+ 
+           <h4><strong>Question 8</strong></h4>
+           <h5>I like to solve complex problems.</h5>
+           <select data-placeholder="" class="chosen-select" id="Q8">
+             <option value=""></option>
+             <option value="1">1 (Strongly Disagree)</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5 (Strongly Agree)</option>
+           </select>
+ 
+           <h4><strong>Question 9</strong></h4>
+           <h5>You rarely do something just out of sheer curiosity.</h5>
+           <select data-placeholder="" class="chosen-select" id="Q9">
+             <option value=""></option>
+             <option value="1">1 (Strongly Disagree)</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5 (Strongly Agree)</option>
+           </select>
+ 
+           <h4><strong>Question 10</strong></h4>
+           <h5>I don't know why I do some of the things I do.</h5>
+           <select data-placeholder="" class="chosen-select" id="Q10">
+             <option value=""></option>
+             <option value="1">1 (Strongly Disagree)</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5 (Strongly Agree)</option>
+           </select>
+ 
+         </div>
+       </div>
+ 
+        <button id="submitButton" type="submit" class="btn btn-md btn-danger btn-block"><h4 style="color: #fc99cf"><span class="glyphicon glyphicon-hand-down"></span> Submit <span class="glyphicon glyphicon-hand-down"></span></h4></button> 
+   
+       <br>
+ 
+       <footer class="footer">
+         <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/jok405/Friend-Finder" target="_blank">GitHub Repo</a> | <a href="/">Home</a></p>
+       </footer> 
+ 
+       <div id="resultsModal" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+ 
+           <div class="modal-content">
+ 
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h2 class="modal-title"><span class="glyphicon glyphicon-heart"></span><strong> Your Matching Celebrity Friend! </strong><span class="glyphicon glyphicon-heart"></span></h2>
+             </div>
+ 
+             <div class="modal-body" align="center">
+               <h2 id="matchName"></h2>
+               <img id="matchImg" src="" alt="Image Not Found" style="max-width: 350px;">
+             </div>
+
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             </div>
+ 
+           </div>
+ 
+         </div>
+       </div>
+ 
+ 
+     </div>
+ 
+ 
+     <script src="https://code.jquery.com/jquery.js"></script>
+ 
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="" crossorigin="anonymous"></script>
+ 
+ 
+     <script>
+
+      let surveyInputDone;                     // Global scope scoping resolved
+
+      $(document).ready(() => {
+
+        $('#submitButton').on('click', () => { // Event Listener for Submit
+
+          checkSurveyDone(() => {
+
+            if (surveyInputDone) {            // Proceed with AJAX call if all questions are answered
+              answeredTray();
+            }
+            else {
+              alert('Oops, some answers still remain unanswered!');
+            }
+
+          }); 
+
+        }); 
+
+      }); 
+
+      // Function to check answers
+      function checkSurveyDone(callback) {
+
+        let answeredFully;             // Check for missing answers
+        $('.chosen-select').each(function () {
+          if ($(this).val() == "") {
+            answeredFully = false;
+          }
+        })
+
+          // Async behavior avoided from $.each()
+          .promise().done(() => {
+
+            // Check if any questions are incomplete
+            if (answeredFully == false) {
+              surveyInputDone = false;
+            }
+
+            else if ($('#formName').val().trim() == "") {         // Name input check
+              surveyInputDone = false;
+            }
+
+            else if ($('#formImage').val().trim() == "") {         // Link input check
+              surveyInputDone = false;
+            }
+
+            else {
+              surveyInputDone = true;
+            }
+
+            callback();    // Executes callback funny async behavior from $.each
+
+          });
+      }
+
+
+      function answeredTray() {
+
+        // Celeb friend object
+        const celebFriend = {
+          name: $('#formName').val().trim(),
+          photo: $('#formImage').val().trim(),
+          scores: []
+        };
+
+        const scoresArray = [];           // Loop through to capture scores
+        $('.chosen-select').each(function () {
+          scoresArray.push(parseInt($(this).val()));
+        })
+          .promise().done(() => {         // async behavior avoided from $.each()
+
+            // Push array to celeb friend object
+            celebFriend.scores = scoresArray;
+
+            // POST celeb friend to the friends.js and returns matching celeb friend
+            const currentURL = window.location.origin;
+            $.post(`${currentURL}/api/friends`, celebFriend, data => {
+
+              $('#matchName').text(data.name);            // Ideal matches attributes to Modal
+              $('#matchImg').attr('src', data.photo);
+
+              $("#resultsModal").modal('toggle');
+
+            });
+          });
+      }
+
+     </script> 
+   </body> 
+ </html>
