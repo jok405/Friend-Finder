@@ -24,7 +24,7 @@ apiRoutes(app); // API route - Must list before HTML route for 'use' route to su
 htmlRoutes(app); // HTML route 
 
 
-// Listener - Start the server
+// Execute server
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
 });
