@@ -23,5 +23,5 @@ Finally, do be sure to serve the app in `localhost:3000` in your browser.
 ### Results Page
 ![Submit Button](/screenshots/result.png)
 
-### Displays API Routes for Matching Friend List.
-![API Page](/screenshots/#)
+### Displays API Routes for Matching Friends List.
+![API Page](/screenshots/API_list.png)
