@@ -18,7 +18,7 @@ Finally, do be sure to serve the app in `localhost:3000` in your browser.
 ![Home Page](/screenshots/title.png)
 
 ### Add your name and a link to a picture of yourself
-![Quiz Page](/screenshots/#)
+![Quiz Page](/screenshots/result.png)
 
 ### Displays API routes containing the matching friend list.
 ![API Page](/screenshots/#)
