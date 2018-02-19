@@ -14,11 +14,14 @@ Finally, do be sure to serve the app in `localhost:3000` in your browser.
 
 ## Screenshots
 
-### Select start button to begin the quiz
+### Landing page
 ![Home Page](/screenshots/title.png)
 
-### Add your name and a link to a picture of yourself
-![Quiz Page](/screenshots/result.png)
+### Your Profile and Survey
+![Quiz Page](/screenshots/profile.png)
 
-### Displays API routes containing the matching friend list.
+### Results Page
+![Submit Button](/screenshots/result.png)
+
+### Displays API Routes for Matching Friend List.
 ![API Page](/screenshots/#)
