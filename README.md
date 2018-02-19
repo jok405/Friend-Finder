@@ -15,7 +15,7 @@ Finally, do be sure to serve the app in `localhost:3000` in your browser.
 ## Screenshots
 
 ### Select start button to begin the quiz
-![Home Page](/screenshots/#)
+![Home Page](/screenshots/title.png)
 
 ### Add your name and a link to a picture of yourself
 ![Quiz Page](/screenshots/#)
