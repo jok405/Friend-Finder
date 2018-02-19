@@ -20,11 +20,8 @@ Finally, do be sure to serve the app in `localhost:3000` in your browser.
 ### Add your name and a link to a picture of yourself
 ![Quiz Page](/screenshots/#)
 
-### Submit will display your results
+### Submit will display your matching friend.
 ![Submit Button](/screenshots/#)
-
-### Displays matching friend on submission.
-![Results Modal](/screenshots/#)
 
 ### Displays API routes containing the matching friend list.
 ![API Page](/screenshots/#)
